@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainn"
+    tools:context=".GalleryFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="34dp"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:text="@string/gallery" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="396dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/tmbll"
+        android:drawableEnd="@drawable/knn"
+        android:gravity="center"
+        android:text="@string/stance_car"
+        android:textColor="@color/putih" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="396dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/tmbll"
+        android:drawableEnd="@drawable/knn"
+        android:gravity="center"
+        android:text="@string/logo_band"
+        android:textColor="@color/putih" />
+</RelativeLayout>

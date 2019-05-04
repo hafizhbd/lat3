@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainn"
+    tools:context=".Music1Fragment">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="@string/music_favorite"
+        android:textColor="@color/putih"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="396dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/tmbll"
+        android:drawableEnd="@drawable/knn"
+        android:gravity="center"
+        android:text="@string/she_s_gone_steal_heart_offical_video"
+        android:textColor="@color/putih" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="396dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/tmbll"
+        android:drawableEnd="@drawable/knn"
+        android:gravity="center"
+        android:text="@string/jump_van_halen_offical_video"
+        android:textColor="@color/putih" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="371dp"
+        android:layout_marginBottom="611dp"
+        android:background="@color/tembus"
+        android:drawableStart="@drawable/ic_header_back"
+        android:textColor="@color/putih"
+        android:textSize="20sp" />
+
+</RelativeLayout>
